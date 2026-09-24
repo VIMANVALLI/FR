@@ -73,7 +73,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://127.0.0.1:3000"
+        "http://127.0.0.1:3000",
+        "https://fr-1-5z0y.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
